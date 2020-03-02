@@ -1,0 +1,63 @@
+﻿  geometry_utils.cpp
+  Matrix.cpp
+  Vector.cpp
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\A1 - Audio Visualizer\shader_texturing\angle_util\Vector.cpp(26,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\A1 - Audio Visualizer\shader_texturing\angle_util\Vector.cpp(65,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  demo.cpp
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\A1 - Audio Visualizer\shader_texturing\angle_util\Vector.cpp(164,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\A1 - Audio Visualizer\shader_texturing\demo.cpp(151,63): warning C4474: 'printf' : too many arguments passed for format string
+  Generating Code...
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\A1 - Audio Visualizer\shader_texturing\demo.cpp(151,63): message : placeholders and their parameters expect 0 variadic arguments, but 2 were provided
+demo.obj : error LNK2019: unresolved external symbol glAttachShader referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glBindAttribLocation referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glBindTexture referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glBlendFunc referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glClear referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glClearColor referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glCompileShader referenced in function "unsigned int __cdecl LoadShader(unsigned int,char const *)" (?LoadShader@@YAIIPEBD@Z)
+demo.obj : error LNK2019: unresolved external symbol glCreateProgram referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glCreateShader referenced in function "unsigned int __cdecl LoadShader(unsigned int,char const *)" (?LoadShader@@YAIIPEBD@Z)
+demo.obj : error LNK2019: unresolved external symbol glDeleteProgram referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glDeleteShader referenced in function "unsigned int __cdecl LoadShader(unsigned int,char const *)" (?LoadShader@@YAIIPEBD@Z)
+demo.obj : error LNK2019: unresolved external symbol glDisableVertexAttribArray referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glDrawArrays referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glEnable referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glEnableVertexAttribArray referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glGenTextures referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glGetProgramiv referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glGetProgramInfoLog referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glGetShaderiv referenced in function "unsigned int __cdecl LoadShader(unsigned int,char const *)" (?LoadShader@@YAIIPEBD@Z)
+demo.obj : error LNK2019: unresolved external symbol glGetShaderInfoLog referenced in function "unsigned int __cdecl LoadShader(unsigned int,char const *)" (?LoadShader@@YAIIPEBD@Z)
+demo.obj : error LNK2019: unresolved external symbol glGetUniformLocation referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glLinkProgram referenced in function "int __cdecl Init(void)" (?Init@@YAHXZ)
+demo.obj : error LNK2019: unresolved external symbol glShaderSource referenced in function "unsigned int __cdecl LoadShader(unsigned int,char const *)" (?LoadShader@@YAIIPEBD@Z)
+demo.obj : error LNK2019: unresolved external symbol glTexImage2D referenced in function "void __cdecl loadTexture(char const *,unsigned int)" (?loadTexture@@YAXPEBDI@Z)
+demo.obj : error LNK2019: unresolved external symbol glTexParameteri referenced in function "void __cdecl loadTexture(char const *,unsigned int)" (?loadTexture@@YAXPEBDI@Z)
+demo.obj : error LNK2019: unresolved external symbol glUniform1f referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glUniform1i referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glUseProgram referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glVertexAttribPointer referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol glViewport referenced in function "void __cdecl Draw(void)" (?Draw@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwInit referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwTerminate referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwSetErrorCallback referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwDefaultWindowHints referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwWindowHint referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwCreateWindow referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwDestroyWindow referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwWindowShouldClose referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwPollEvents referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwMakeContextCurrent referenced in function main
+demo.obj : error LNK2019: unresolved external symbol __imp_glfwSwapBuffers referenced in function main
+demo.obj : error LNK2019: unresolved external symbol FMOD_System_Create referenced in function "enum FMOD_RESULT __cdecl FMOD::System_Create(class FMOD::System * *)" (?System_Create@FMOD@@YA?AW4FMOD_RESULT@@PEAPEAVSystem@1@@Z)
+demo.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::init(int,unsigned int,void *)" (?init@System@FMOD@@QEAA?AW4FMOD_RESULT@@HIPEAX@Z) referenced in function "void __cdecl initFmod(void)" (?initFmod@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::update(void)" (?update@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "void __cdecl updateFmod(void)" (?updateFmod@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::getVersion(unsigned int *)" (?getVersion@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEAI@Z) referenced in function "void __cdecl initFmod(void)" (?initFmod@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::createStream(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createStream@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) referenced in function "void __cdecl initFmod(void)" (?initFmod@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::playSound(enum FMOD_CHANNELINDEX,class FMOD::Sound *,bool,class FMOD::Channel * *)" (?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PEAVSound@2@_NPEAPEAVChannel@2@@Z) referenced in function "void __cdecl initFmod(void)" (?initFmod@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Channel::getSpectrum(float *,int,int,enum FMOD_DSP_FFT_WINDOW)" (?getSpectrum@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEAMHHW4FMOD_DSP_FFT_WINDOW@@@Z) referenced in function "void __cdecl updateFmod(void)" (?updateFmod@@YAXXZ)
+demo.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Channel::setLoopCount(int)" (?setLoopCount@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@H@Z) referenced in function "void __cdecl initFmod(void)" (?initFmod@@YAXXZ)
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\gles2-starter-win32\libglesv2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\gles2-starter-win32\libegl.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\gles2-starter-win32\glfw3dll.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Ben\Documents\CodeOfRed\3D Game Programming\A1 - Audio Visualizer\x64\Debug\shader_wave.exe : fatal error LNK1120: 49 unresolved externals

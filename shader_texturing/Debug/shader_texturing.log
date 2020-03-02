@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (shader_texturing.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  demo.cpp
+E:\UoW\3D Game Programming\0124846_Ivan Ong Zhisien\Source\A1 - Audio Visualizer\shader_texturing\demo.cpp(159,63): warning C4474: 'printf' : too many arguments passed for format string
+E:\UoW\3D Game Programming\0124846_Ivan Ong Zhisien\Source\A1 - Audio Visualizer\shader_texturing\demo.cpp(159,63): message : placeholders and their parameters expect 0 variadic arguments, but 2 were provided
+E:\UoW\3D Game Programming\0124846_Ivan Ong Zhisien\Source\A1 - Audio Visualizer\shader_texturing\demo.cpp(407,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\UoW\3D Game Programming\0124846_Ivan Ong Zhisien\Source\A1 - Audio Visualizer\shader_texturing\demo.cpp(441,18): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+  shader_texturing.vcxproj -> E:\UoW\3D Game Programming\0124846_Ivan Ong Zhisien\Source\A1 - Audio Visualizer\Debug\shader_wave.exe
